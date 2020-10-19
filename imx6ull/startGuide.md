@@ -21,5 +21,5 @@
         ```
     - client mount it 
         ```
-        sudo mount -t nfs -o nolock,ver=3 10.10.18.17:/home/victory/nfs_rootfs ubuntu-host-dir/ 
+        sudo mount -t nfs -o nolock,vers=3 10.10.18.17:/home/victory/nfs_rootfs ubuntu-host-dir/ 
         ```
